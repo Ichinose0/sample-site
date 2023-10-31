@@ -4,48 +4,51 @@
     <link rel="stylesheet" href="styles/main.css" type="text/css">
   </head>
   <body>
-    <header class="header">
-      <h1 class="title">PhotoArchive</h1>
-      <nav class="nav">
-        <ul class="container">
-          <li><a href="#", onclick="photos()">写真一覧</a></li>
-          <li><a href="#", onclick="subscribe()">チャンネル登録</a></li>
-        </ul>
-      </nav>
-    </header>
-    
-    <main>
-      <div class="intro">
-        <h1>@Ichnsegraph</h1>
-        <p>これはサンプルテキストです</p>
-      </div>
-      <h2>Playground</h2>
-      <p><input type=text id="left">+<input type=text id="right">=<p id="answer"></p>
+    <div class="wrapper">
+      <header class="header">
+        <h1 class="title">PhotoArchive</h1>
+        <nav class="nav">
+          <ul class="container">
+            <li><a href="#", onclick="photos()">写真一覧</a></li>
+            <li><a href="#", onclick="subscribe()">チャンネル登録</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div style="padding: 31px;"></div>
+      <main>
+        <div class="intro">
+          <h1>@Ichnsegraph</h1>
+          <p>これはサンプルテキストです</p>
+        </div>
+        <h2>Playground</h2>
+        <p><input type=text id="left">+<input type=text id="right">=<p id="answer"></p>
+        
+        <button onclick="calc()">Calculate</button>
       
-      <button onclick="calc()">Calculate</button>
+      </main>
+      
+      <footer>
+        <nav class="nav_footer">
+          <ul>
+            <li class="desc_footer">
+              <p>
+                Powered by vue.js
+              </p>
+            </li>
+            <li class="copyright">
+              <p>Copyright © いちのせ 2023</p>
+            </li>
+            <li class="links">
+              <ul>
+                <li>あ</li>
+                <li>あ</li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
     
-    </main>
-    
-    <footer>
-      <nav class="nav_footer">
-        <ul>
-          <li class="desc_footer">
-            <p>
-              Powered by vue.js
-            </p>
-          </li>
-          <li class="copyright">
-            <p>Copyright © いちのせ 2023</p>
-          </li>
-          <li class="links">
-            <ul>
-              <li>あ</li>
-              <li>あ</li>
-            </ul>
-          </li>
-        </ul>
-      </nav>
-    </footer>
     
   </body>
 </html>
